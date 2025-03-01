@@ -12,3 +12,7 @@ https://github.com/Borlandcsn/shvirtd-example-python
 
 Задача 2
 
+![Screenshot_1](https://github.com/user-attachments/assets/1c5d955f-3fcb-4a1f-b585-f38de69e157a)
+
+Задача 3
+
