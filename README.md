@@ -23,4 +23,11 @@ https://github.com/Borlandcsn/shvirtd-example-python
 
 Задача 4
 
+![Screenshot_2](https://github.com/user-attachments/assets/80150c48-c333-431e-a2ed-568c84cdc100)
+
+![Screenshot_1](https://github.com/user-attachments/assets/87b6acc9-4557-485f-a325-bd62eb062913)
+
+https://github.com/Borlandcsn/shvirtd-example-python.git
+
+Задача 6
 
