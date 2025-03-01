@@ -59,4 +59,13 @@ cp terraform ~/
 
 ![Screenshot_1](https://github.com/user-attachments/assets/217fe6e8-1b7e-489b-8f05-74f3fff10d78)
 
+Задание 6.1
+
+Добейтесь аналогичного результата, используя docker cp.
+
+Предоставьте скриншоты действий .
+
+![Screenshot_3](https://github.com/user-attachments/assets/ec2d7cbf-5f53-45a3-add5-955386c90621)
+
+
 
