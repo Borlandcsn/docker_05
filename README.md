@@ -32,8 +32,11 @@ https://github.com/Borlandcsn/shvirtd-example-python.git
 Задача 6
 
 #устанавливаем dive 
+
 DIVE_VERSION=$(curl -sL "https://api.github.com/repos/wagoodman/dive/releases/latest" | grep '"tag_name":' | sed -E 's/.*"v([^"]+)".*/\1/')
+
 curl -OL https://github.com/wagoodman/dive/releases/download/v${DIVE_VERSION}/dive_${DIVE_VERSION}_linux_amd64.deb
+
 sudo apt install ./dive_${DIVE_VERSION}_linux_amd64.deb
 
 изучаем образ с помощью dive и находим нас интересующий слой
@@ -41,12 +44,17 @@ sudo apt install ./dive_${DIVE_VERSION}_linux_amd64.deb
 ![Screenshot_2](https://github.com/user-attachments/assets/4e0b2460-aee7-4ff6-bb95-83fd45e829da)
 
 docker save hashicorp/terraform:latest -o terraform_image.tar
+
 mkdir layers
+
 tar -xf terraform_image.tar -C layers/
 
 cd layers/blobs/sha256/
+
 tar -xf 39d97dd55629c8aba7fbcc9677c5b82aa7acde6a64767eb542c4dad181acd556
+
 cd bin
+
 cp terraform ~/
 
 ![Screenshot_1](https://github.com/user-attachments/assets/217fe6e8-1b7e-489b-8f05-74f3fff10d78)
