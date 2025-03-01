@@ -6,3 +6,7 @@
 
 Задача 1
 
+https://github.com/Borlandcsn/shvirtd-example-python
+
+![Screenshot_11](https://github.com/user-attachments/assets/85d3ff3d-a798-4dc9-867f-4cd8b7c988c3)
+
